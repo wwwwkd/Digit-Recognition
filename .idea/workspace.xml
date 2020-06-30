@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aed0f80d-a218-4e2c-9f2f-405c55861477" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dZ8CfKmfgrpQk2MTFMXU7CTzWJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../job" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\wangkaidong\pycharm\License plate recognition" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.extract_nums (1)">
+    <configuration name="LeNet5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="License plate recognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeNet5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="extract_nums (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="License plate recognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extract_nums.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="License plate recognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="License plate recognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_and_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="License plate recognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_and_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.extract_nums (1)" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.train_and_test" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.LeNet5" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aed0f80d-a218-4e2c-9f2f-405c55861477" name="Default Changelist" comment="" />
+      <created>1592621128288</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592621128288</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592621148276">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1366.52.1366.984@0.0.1536.824" timestamp="1592621148276" />
+    <state x="508" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593443015085">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="508" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1593443015085" />
+    <state width="1512" height="202" key="DebuggerActiveHint" timestamp="1593512329136">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1512" height="202" key="DebuggerActiveHint/0.0.1536.824/-1366.52.1366.984@0.0.1536.824" timestamp="1593486621996" />
+    <state width="1512" height="202" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1593512329136" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1593493360198">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824/-1366.52.1366.984@0.0.1536.824" timestamp="1593493360198" />
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593395569812" />
+    <state width="1515" height="190" key="GridCell.Tab.0.bottom" timestamp="1593526911950">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="183" key="GridCell.Tab.0.bottom/0.0.1536.824/-1366.52.1366.984@0.0.1536.824" timestamp="1593488265381" />
+    <state width="1515" height="190" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593526911950" />
+    <state width="1515" height="190" key="GridCell.Tab.0.center" timestamp="1593526911950">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="183" key="GridCell.Tab.0.center/0.0.1536.824/-1366.52.1366.984@0.0.1536.824" timestamp="1593488265381" />
+    <state width="1515" height="190" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593526911950" />
+    <state width="1515" height="190" key="GridCell.Tab.0.left" timestamp="1593526911950">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="183" key="GridCell.Tab.0.left/0.0.1536.824/-1366.52.1366.984@0.0.1536.824" timestamp="1593488265381" />
+    <state width="1515" height="190" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593526911950" />
+    <state width="1515" height="190" key="GridCell.Tab.0.right" timestamp="1593526911950">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="183" key="GridCell.Tab.0.right/0.0.1536.824/-1366.52.1366.984@0.0.1536.824" timestamp="1593488265381" />
+    <state width="1515" height="190" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593526911950" />
+    <state width="1515" height="241" key="GridCell.Tab.1.bottom" timestamp="1593512593380">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="241" key="GridCell.Tab.1.bottom/0.0.1536.824/-1366.52.1366.984@0.0.1536.824" timestamp="1593487864430" />
+    <state width="1515" height="241" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593512593380" />
+    <state width="1515" height="241" key="GridCell.Tab.1.center" timestamp="1593512593380">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="241" key="GridCell.Tab.1.center/0.0.1536.824/-1366.52.1366.984@0.0.1536.824" timestamp="1593487864430" />
+    <state width="1515" height="241" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593512593380" />
+    <state width="1515" height="241" key="GridCell.Tab.1.left" timestamp="1593512593380">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="241" key="GridCell.Tab.1.left/0.0.1536.824/-1366.52.1366.984@0.0.1536.824" timestamp="1593487864430" />
+    <state width="1515" height="241" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593512593380" />
+    <state width="1515" height="241" key="GridCell.Tab.1.right" timestamp="1593512593380">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="241" key="GridCell.Tab.1.right/0.0.1536.824/-1366.52.1366.984@0.0.1536.824" timestamp="1593487864430" />
+    <state width="1515" height="241" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593512593380" />
+    <state x="270" y="55" key="SettingsEditor" timestamp="1593398568934">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="55" key="SettingsEditor/0.0.1536.824/-1366.52.1366.984@0.0.1536.824" timestamp="1592621183271" />
+    <state x="270" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593398568934" />
+    <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1593485398486">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824/-1366.52.1366.984@0.0.1536.824" timestamp="1593485398486" />
+    <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1593437132681" />
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1593226537087">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593226537087" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593418136738">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1366.52.1366.984@0.0.1536.824" timestamp="1593418136738" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/extract_nums.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/extract_nums.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/extract_nums.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
