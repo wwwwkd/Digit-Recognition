@@ -15,3 +15,4 @@
 ----
 
 效果展示
+![result1](https://github.com/wwwwkd/Digit-Recognition/blob/master/result/test1_result.png "test1_result")
