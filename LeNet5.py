@@ -71,6 +71,7 @@ class LeNet5(nn.Module):
 
 
 def main():
+    # test
 
     net = LeNet5()
     x = torch.randn(1, 1, 28, 28)

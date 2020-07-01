@@ -1,11 +1,10 @@
 import torch
+
+
 from torch import optim, nn
-
-
 from torch.utils.data import DataLoader
-
 from LeNet5 import LeNet5
-
+from utils import plot_curve
 from torchvision import datasets, transforms # 视觉工具包
 
 
@@ -80,7 +79,7 @@ def main():
     criteon = nn.CrossEntropyLoss().to(device) # 设置损失函数参数
 
     best_acc, best_epoch = 0, 0
-
+    train_loss = []
 
     for epoch in range(epochs): # 训练
 
@@ -92,6 +91,7 @@ def main():
             model.train() # 训练模型
             logits = model(data) # 获得网络输出
             loss = criteon(logits, target) # 根据损失函数得到loss
+            train_loss.append(loss.item())  # loss是tensor数据类型 loss.item将其转换成具体数值，numpy类型
 
             optimizer.zero_grad() # 梯度清零
             loss.backward() # 反向传播，更新权重等参数信息，计算梯度
@@ -111,7 +111,7 @@ def main():
 
                 torch.save(model.state_dict(), 'best.mdl')
 
-
+    plot_curve(train_loss)
 
     print('best acc:', best_acc, 'best epoch:', best_epoch)
 
@@ -121,8 +121,7 @@ def main():
     test_acc = evalute(model, test_loader) # 没有训练过的新图像即测试集来体现网络得真是性能
     print('test acc:', test_acc)
 
-    # x = model(x)
-    # pred = argmax(pred)
+
 
 
 

@@ -10,7 +10,7 @@ def cv_show(name, img):
 
 # plt显示彩色图片
 def plt_show0(img):
-    b, g, r = cv.split(img)
+    b, g, r = cv.split(img) #cv2 默认bgr 将其转换为rgb
     img = cv.merge([r, g, b])
     plt.imshow(img)
     plt.show()
@@ -29,7 +29,6 @@ def digital_segmentation(image):
     gray = cv.cvtColor(image,cv.COLOR_BGR2GRAY) #转灰度图像
     #cv.imshow("gray image", gray)
 
-
     gray = cv.medianBlur(gray, 5) #中值滤波去除椒盐噪声
     #cv.imshow("medianBlur image", gray)
 
@@ -41,30 +40,26 @@ def digital_segmentation(image):
     #print(kernelX)
     binary1 = cv.morphologyEx(binary, cv.MORPH_CLOSE, kernelX, iterations=3)
 
-    #
-    kerne2X = cv.getStructuringElement(cv.MORPH_RECT, (5, 5))
+    # 下面的膨胀、腐蚀或者腐蚀、膨胀根据个人需求自行设定即可
+    kerne2X = cv.getStructuringElement(cv.MORPH_RECT, (5, 5)) #设置卷积核
     # kernelY = cv.getStructuringElement(cv.MORPH_RECT, (1, 5))
 
     # 膨胀，腐蚀
     binary1 = cv.dilate(binary1, kerne2X)
-    # 黑白反转 由于minist数据集是白底黑字
+    # binary = cv.erode(binary, kernelX)
+
+    # 黑白反转 由于minist数据集是白底黑字 但是做了效果不好 这个地方先舍去
     bin = binary #(255-binary)*(1/255)
     #cv.imshow('b', bin)
 
-    # binary = cv.erode(binary, kernelX)
-    # # 腐蚀，膨胀
-    # binary = cv.erode(binary, kernelY)
-    # binary = cv.dilate(binary, kernelY)
 
-
-
-    #print("thresold value:",ret)
-    #cv.imshow("binary image",binary)
+    #print("thresold value:",ret) # 显示阈值
+    #cv.imshow("binary image",binary) # 显示二值图像
 
     contours,hireachy = cv.findContours(binary1,cv.RETR_EXTERNAL,cv.CHAIN_APPROX_SIMPLE) #只检测外轮廓即可
 
     # image1 = image.copy()
-    # cv.drawContours(image1, contours, -1, (0, 255, 0), 5)#绘制轮廓 查看轮廓是否正确识别
+    # cv.drawContours(image1, contours, -1, (0, 255, 0), 1)#绘制轮廓 查看轮廓是否正确识别
     # plt_show0(image1)
 
     numbers = []
@@ -79,7 +74,11 @@ def digital_segmentation(image):
         x,y,w,h = cv.boundingRect(item)     #获取轮廓的外接矩形
         rate = min(w,h)/max(w,h)    #获取外接矩形宽高比，可以起到一定的筛选作用
         #print("rectangle rate:%s"%rate)
-        cv.rectangle(image, (x, y), (x + w, y + h), (255, 0, 255), 2)  # 根据轮廓外接矩形返回数据，画出外接矩形
+        cv.rectangle(image, (x, y), (x + w, y + h), (255, 0, 255), 3)  # 根据轮廓外接矩形返回数据，画出外接矩形
+        cv.namedWindow("measure_object", 0)
+        cv.resizeWindow("measure_object", 460, 216)
+
+
         cv.imshow("measure_object", image)
         number = []
         number.append(x) # 将矩形轮廓得四点坐标添加到number
@@ -101,8 +100,18 @@ def digital_segmentation(image):
     #print("areas",areas)
     areas = [i[1] for i in areas] # 获得二维列表得第一列 这一列是按顺序保存得面积
 
-    min_areas_idx = areas.index(min(areas)) # 返回最小面积得索引
-    print('小数点索引位置', min_areas_idx)
+    # 对有无小数点进行判断
+    '''
+        经验值判断 因为最大面积一般是大于小数点面积的4倍以上
+        当没有小数点时同样数字不可能比最大面积大三倍以上    
+    '''
+    if 5*min(areas) < max(areas):
+        min_areas_idx = areas.index(min(areas)) # 返回最小面积得索引
+        print('小数点索引位置', min_areas_idx)
+    else:
+        min_areas_idx = None
+        print('无小数点')
+
     i = 0
     for number in numbers:
         i = i + 1
@@ -117,14 +126,11 @@ def digital_segmentation(image):
 
 
 if __name__ == '__main__':
-    src = cv.imread("./test/tu2.png")  # 读取图片
-    # cv.namedWindow("input image",cv.WINDOW_AUTOSIZE)    #创建GUI窗口,形式为自适应
-    # cv.imshow("input image",src)    #通过名字将图像和窗口联系
+
+    src = cv.imread("./test/1.png")  # 读取图片
 
     # 手写数字定位分割
     number_image, min_areas_idx = digital_segmentation(src)
-
-
 
     cv.waitKey(0)   #等待用户操作，里面等待参数是毫秒，我们填写0，代表是永远，等待用户操作
     cv.destroyAllWindows()  #销毁所有窗口
