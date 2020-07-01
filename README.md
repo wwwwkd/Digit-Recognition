@@ -20,3 +20,5 @@
 
 
 ![result2](https://github.com/wwwwkd/Digit-Recognition/blob/master/result/test2_result.png "test2_result")
+
+![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
