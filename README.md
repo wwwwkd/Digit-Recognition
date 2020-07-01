@@ -14,5 +14,9 @@
 3.主程序将分割图像送入网络完成识别
 ----
 
-效果展示
+[效果展示](https://github.com/wwwwkd/Digit-Recognition/tree/master/result)
+
 ![result1](https://github.com/wwwwkd/Digit-Recognition/blob/master/result/test1_result.png "test1_result")
+
+
+![result2](https://github.com/wwwwkd/Digit-Recognition/blob/master/result/test2_result.png "test2_result")
